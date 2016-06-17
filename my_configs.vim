@@ -263,6 +263,9 @@ nnoremap <leader>w :w!<CR>
 "autocmd! bufwritepost .vimrc source ~/OneDrive/MyConfigs/vim/.vimrc
 
 set background=dark
+" 解决putty登陆时，行号和背景黑色重合的显示异常
+highlight LineNr ctermfg=grey
+
 "colorscheme evening
 " colorscheme solarized
 " colorscheme molokai
