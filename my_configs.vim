@@ -188,8 +188,8 @@ set splitbelow                  " Puts new split windows to the bottom of the cu
 set winminheight=0              " Windows can be 0 line high
 set textwidth=80
 set colorcolumn=+1
-set columns=540
-set lines=999
+"set columns=540
+"set lines=999
 " winpos 540 0
 
 "
@@ -202,7 +202,7 @@ noremap k gk
 
 " 设置‘空’字符显示
 set list
-" 设置tab为>-格式,用行结尾为$, 空格结尾显示为?，后面两个没懂
+" 设置tab为>-格式,用行结尾为$, 结尾前空格显示为·,，后面两个没懂
 set listchars=tab:>-,eol:$,trail:·,extends:#,nbsp:.
 
 set matchpairs+=<:>
