@@ -136,8 +136,8 @@ elseif WINDOWS() && has("gui_running")
 endif
 
 " 打开文件时，解码顺序，中文
-set encoding=utf-8
-set termencoding=gbk
+" set encoding=utf-8
+let $termencoding=$encoding
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 
 " 打开命令行自动补全，按TAB后，弹出补全内容
@@ -265,7 +265,7 @@ set background=dark
 " 解决putty登陆时，行号和背景黑色重合的显示异常
 highlight LineNr ctermfg=grey
 
-colorscheme evening
+" colorscheme evening
 " colorscheme solarized
 " colorscheme molokai
 " colorscheme phd
